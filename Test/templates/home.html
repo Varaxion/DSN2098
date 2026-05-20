@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+
+    <title>SmartSpend | Home</title>
+    <style>
+        body {
+            margin: 0;
+            background-color: #000; /* True black background */
+            font-family: 'Segoe UI', sans-serif;
+            color: #EAEAEA;
+            transition: background-color 0.5s; /* Smooth transition effect */
+        }
+
+        .header {
+            height: 80px;
+            background: linear-gradient(45deg, #6a11cb 0%, #2575fc 100%); /* Gradient background */
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+
+        h1 {
+            text-align: center;
+            font-family: 'Arial', cursive;
+            font-size: 2rem;
+            color: #FFFFFF;
+        }
+
+        .topnav {
+            background-color: #000; 
+            overflow: hidden;
+            padding: 10px 20px;
+            display: flex;
+            justify-content: flex-end;
+        }
+
+        .topnav a {
+            color: #EAEAEA; 
+            padding: 8px 16px;
+            text-decoration: none;
+            border-radius: 8px;
+            margin-left: 10px;
+            transition: all 0.3s ease; /* Smooth transition effect */
+        }
+
+        .topnav a:hover {
+            background: linear-gradient(45deg, #6a11cb 0%, #2575fc 100%);
+            color: #FFFFFF;
+        }
+
+        .intro {
+            text-align: center;
+            margin-top: 50px;
+            padding: 20px;
+            background-color: #222;
+            border-radius: 10px;
+            max-width: 600px;
+            margin: 50px auto;
+            box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.2);
+        }
+
+        .intro p {
+            font-size: 1.2rem;
+            
+        }
+
+        @media screen and (max-width: 768px) {
+            h1 {
+                font-size: 1.5rem;
+            }
+
+            .topnav {
+                padding: 5px 10px;
+            }
+
+            .topnav a {
+                font-size: 18px;
+            }
+        }
+
+        /* Added CSS for image positioning */
+        .content-container {
+            display: flex;
+            flex-direction: row-reverse; /* Reverse the order of content and image */
+            align-items: center;
+        }
+
+        /*img {
+            max-width: 50%;
+            height: auto;
+            margin-right: 30px; /* Add margin to create space between image and content */
+            /* border-image: 100px;
+            border-color: #cb1c1c; *
+        }*/
+    </style>
+</head>
+
+<body>
+    <div class="topnav">
+        <a href='/login'><i class="fas fa-user"></i> Login</a>
+        <a href='/register'><i class="fas fa-user-plus"></i> Register</a>
+    </div>
+
+    <div class="header">
+        <h1>Smart Spend</h1>
+    </div>
+    <marquee>Smart Spend  is a very innovative way to store, record and predict 
+        your expenses. This project is very beneficial for the college students, school students
+        and people who have just started their earnings.
+    </marquee>
+
+    <div class="content-container">
+        <div class="intro">
+            <p>Track every penny, master your finances, and empower your future.</p>
+        </div>
+        <!-- <img src="D:\DSN2098\templates\exp.jpg" alt="An example image"> -->
+    </div>
+</body>
+
+</html>

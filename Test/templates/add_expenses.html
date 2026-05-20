@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SmartSpend Add Expense</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: black;
+            color: #ffffff;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            height: 100vh;
+            margin: 0;
+            padding: 20px;
+        }
+
+        form {
+            background-color: #1a1a1a;
+            padding: 30px;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(255, 255, 255, 0.2);
+            max-width: 400px;
+            width: 100%;
+        }
+
+        label {
+            display: block;
+            margin-bottom: 10px;
+            font-size: 16px;
+            font-weight: bold;
+        }
+
+        input[type="number"], input[type="date"], select {
+            width: 100%;
+            padding: 10px;
+            margin-bottom: 20px;
+            border: none;
+            border-radius: 5px;
+            background-color: #333;
+            color: #ffffff;
+            font-size: 14px;
+            outline: none;
+        }
+
+        input[type="submit"] {
+            background-color: #FF6347; /* Tomato color for vibrant contrast */
+            color: #ffffff;
+            border: none;
+            border-radius: 5px;
+            padding: 10px 15px;
+            font-size: 16px;
+            cursor: pointer;
+            transition: background-color 0.3s;
+        }
+
+        input[type="submit"]:hover {
+            background-color: #FF4500; /* Slightly darker tomato on hover */
+        }
+
+        @media screen and (max-width: 480px) {
+            body {
+                padding: 10px;
+            }
+
+            form {
+                padding: 20px;
+            }
+        }
+
+    </style>
+</head>
+<body>
+    <form action="add_expenses" method="POST">
+        <!-- Amount input -->
+        <label for="amount">Amount:</label>
+        <input type="number" id="amount" name="amount" step="0.01" pattern="^\d{1,8}(\.\d{0,2})?$" placeholder="Enter amount" required>
+        
+        <!-- Date input -->
+        <label for="date">Date:</label>
+        <input type="date" id="date" name="date" required>
+        
+        <!-- Category dropdown -->
+        <label for="category">Category:</label>
+        <select id="category" name="category" required>
+            <option value="utilities">Utilities</option>
+            <option value="food">Food</option>
+            <option value="transport">Transport</option>
+            <option value="miscellaneous">Miscellaneous</option>
+        </select>
+
+        <input type="submit" value="Submit">
+    </form>
+</body>
+</html>
