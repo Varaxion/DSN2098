@@ -102,9 +102,7 @@ SmartSpend uses carefully chosen HSL colors, dynamic gradients (`#8b5cf6` to `#3
   
   ---
   
-  ### ✦ Engineered by Varaxion ✦
-  
-  *[GitHub/@varaxion](https://github.com/varaxion)*
+  ### ✦ Engineered by [Varaxion](https://github.com/varaxion) ✦
   
   ---
   
