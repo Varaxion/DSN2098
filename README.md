@@ -139,7 +139,7 @@ This repository originated as an academic project for **VIT Bhopal University** 
 <br/>
 
 > [!NOTE]
-> **V1.0 Overhaul:** While the initial conceptual prototype was developed by the collective team, the complete architectural redesign, decoupled REST API, and modern Glassmorphic V1.0 frontend were entirely engineered by **Kavya** ([@varaxion](https://github.com/varaxion)).
+> **V1.0 Overhaul:** While the initial conceptual prototype was developed by the collective team, the complete architectural redesign, decoupled REST API, and modern Glassmorphic V1.0 frontend were entirely engineered by [**Kavya**](https://github.com/varaxion).
 
 <br/>
 <div align="center">
