@@ -6,6 +6,7 @@
   
   <br />
 
+  ![Status](https://img.shields.io/badge/Status-Archived-red?style=for-the-badge)
   ![Version](https://img.shields.io/badge/version-1.0-blue.svg?style=for-the-badge)
   ![Vite](https://img.shields.io/badge/Vite-B73BFE?style=for-the-badge&logo=vite&logoColor=FFD62E)
   ![Flask](https://img.shields.io/badge/Flask-000000?style=for-the-badge&logo=flask&logoColor=white)
@@ -139,9 +140,11 @@ This repository originated as an academic project for **VIT Bhopal University** 
 <br/>
 
 > [!NOTE]
-> **V1.0 Overhaul:** While the initial conceptual prototype was developed by the collective team, the complete architectural redesign, decoupled REST API, and modern Glassmorphic V1.0 frontend were entirely engineered by [**Kavya**](https://github.com/varaxion).
+> **v1.0 Overhaul:** While the initial conceptual prototype was developed by the collective team, the complete architectural redesign, decoupled REST API, and modern Glassmorphic V1.0 frontend were entirely engineered by Kavya.
 
 <br/>
 <div align="center">
   <em>SmartSpend • Reimagined for the modern web.</em>
+  <br /><br />
+  <p style="font-size: 13px; color: #8b949e; letter-spacing: 0.5px;">&mdash; Re-engineered by Kavya &mdash;</p>
 </div>
