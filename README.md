@@ -126,6 +126,14 @@ npm run dev
 
 ---
 
+## 📄 License
+
+This project's source code is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+
+*(Note: Academic documentation and project reports located in `v0Archive/docs/` are explicitly excluded from this license and remain fully copyrighted).*
+
+---
+
 ## 🎓 Academic Origins & Contribution
 
 This repository originated as an academic project for **VIT Bhopal University** (Team 251). The original prototype was a collaborative effort by the following team members:
@@ -142,12 +150,6 @@ This repository originated as an academic project for **VIT Bhopal University** 
 
 > [!NOTE]
 > **v1.0 Overhaul:** While the initial conceptual prototype was developed by the collective team, the complete architectural redesign, decoupled REST API, and modern Glassmorphic V1.0 frontend were entirely engineered by Kavya.
-
----
-
-## 📄 License
-
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
 <br/>
 <div align="center">
